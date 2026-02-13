@@ -15,6 +15,7 @@ div.slider>img:nth-of-type(2):hover {
 
 /* Reset */
 :root {
+  font-size: 13.334px;
   --step--1: clamp(0.8rem, 0.75rem + 0.2vw, 0.9rem);
   --step-0: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
   --step-1: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
