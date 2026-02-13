@@ -23,25 +23,11 @@ div.slider>img:nth-of-type(2):hover {
   --step-4: clamp(2.5rem, 2rem + 2vw, 4rem);
 }
 
-h1 {
-  font-size: var(--step-4);
-}
-
-h2 {
-  font-size: var(--step-3);
-}
-
-h3 {
-  font-size: var(--step-2);
-}
-
-p {
-  font-size: var(--step-0);
-}
-
-small {
-  font-size: var(--step--1);
-}
+h1 {font-size: var(--step-4);}
+h2 {font-size: var(--step-3);}
+h3 {font-size: var(--step-2);}
+p {font-size: var(--step-0);}
+small {font-size: var(--step--1);}
 
 * {
   margin: 0;
@@ -51,7 +37,7 @@ small {
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
+  /* scroll-snap-type: y proximity; */
 }
 
 body {
