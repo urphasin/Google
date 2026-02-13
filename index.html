@@ -19,7 +19,9 @@
 
   <script>
     // alert("window innerwidth or (viewport width)= " + window.innerWidth)
-    // alert("window outerwidth = " + window.outerWidth)
+    console.log("window innerHeight = " + document.documentElement.scrollHeight)
+    console.log("document(html) height = " + document.documentElement.getBoundingClientRect().height, document.body.getBoundingClientRect().height
+)
   </script>
 
   <!-- <div class="test"></div>
@@ -43,9 +45,9 @@
     </div>
   </section>
 
-  <!-- <svg>
+  <svg>
       <circle r="20" cx="50" cy="50"></circle>
-    </svg> -->
+    </svg>
 
   <script>
     function solve(x) {
