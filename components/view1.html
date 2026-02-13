@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>View 1</title>
+
+<style>
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Full screen section */
+  section {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 0 6vw;
+    scroll-snap-align: start;
+  }
+
+  /* Background styling */
+  .main {
+    background: linear-gradient(135deg, #111, #333);
+    color: white;
+  }
+
+  /* Fluid typography */
+  h1 {
+    font-size: clamp(3rem, 10vw, 6rem);
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: clamp(1rem, 4vw, 2rem);
+    line-height: 1.6;
+    max-width: 800px;
+  }
+
+</style>
+</head>
+
+<body>
+
+<section class="main">
+  <div>
+    <h1>Letter</h1>
+    <p>
+      The foundations of the people must never be overwhelmed. 
+      They must maintain the entirety of the square to mitigate 
+      actions of the central government. The disovereignty of 
+      the masses is inconsequentially involatile to the notion 
+      of foreign federal government.
+    </p>
+  </div>
+</section>
+
+</body>
+</html>
